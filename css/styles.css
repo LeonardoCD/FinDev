@@ -1,0 +1,22 @@
+/* Fontes
+**************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+
+
+
+
+/**Paleta de cores*/
+:root{
+  --color-primary: #799FFF;
+  --color-secondary: #04D361;
+  --color-text-in-back: #000000;
+  --color-text-label: #707070;
+  --color-grey-dark: #BCBCBC;
+  --color-border: #D9D9D9;
+  --color-grey: #DADADA;
+  --color-white: #FFFFFF;
+  --color-box-white: #FEFEFE;
+  --color-box-grey: #F4F4F4;
+  
+}
