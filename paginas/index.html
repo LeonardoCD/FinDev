@@ -3,14 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FinDev</title>
+    
   <!-- CSS only - BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--Estilo personalizado-->
   <link rel="stylesheet" href="../css/styles.css">
+
+  <title>FinDev</title>
+
 </head>
 <body>
 
-  
+  <!--Seção Login
+    ------------------------------------------->
+  <section id="login"><!--Início da Seção Login-->
+
+    <div class="container-login d-flex"><!--Início do container-->
+
+      <div class="row conteudo p-0 m-0 w-100"><!--Início da row-->
+
+        <!--Landing Login
+          ------------------------------------------>
+        <!--Início do GRID-->
+        <div id="landing-login" class="d-none col-md-5 d-md-flex justify-content-center">
+          <!--Início da row-->
+          <div class="row">
+
+            <!--Início da logo-->
+            <div class="col-md-12">
+              <div class="d-flex flex-column align-self-start mt-4">
+                <img src="../imagens/findevlogo.svg" alt="">
+              </div>
+            </div><!--//Fim da logo-->
+
+            <!--Início da imagem ilustrativa-->
+            <div class="col-md-12 img-landign">
+              <div class="d-flex flex-column align-self-center">
+                <img src="../imagens/landing-login.svg" alt="">
+              </div>
+            </div><!--//Fim da imagem ilustrativa-->
+
+            <!--Início do rodapé da landing-->
+            <div class="col-md-12">
+              <div class="footer-landing flex-column align-self-end">
+                <p id="bem-vindo">Seja bem-vindo</p>
+                <p id="avance">Avance para o próximo nível!</p>
+              </div>
+            </div><!--//Fim da rodapé da landing-->
+
+          </div><!--//Fim da row-->
+        </div><!--//Fim do GRID-->
+        <!--//Fim da landign login-->
+
+   
+        <!--Formulário de Login
+          ----------------------------------------->
+        <!--Início do GRID-->
+        <div id="form-login" class="col-md-7 d-flex p-0">
+
+          <div class="container align-self-center justify-content-center"><!--Início do container-->
+
+            <!--Início da row-->
+            <div class="row">
+              <div class="col"><!--Início do GRID -->
+
+                <!--Título do Formulário-->
+                <h5 class="pt-4">Bem-vindo!</h5>
+                <h3>Junte-se a comunidade</h3>
+
+                <form class="mt-5"><!--Início do formulário-->
+                  
+                  <!--Label de usuário-->
+                  <div class="form-group">
+                    <label for="usuario">Nome de usuário:</label>
+                    <div class="input-group">
+                      <img class="icone" src="../imagens/icones/perfil.svg">
+                      <input class="form-control" type="text" id="usuario">
+                    </div>
+                  </div><!--//Fim da label de usuário-->
+                  
+                  <!--Label de senha-->
+                  <div class="form-group">
+                      <label for="senha">Senha:</label>
+                      <div class="input-group">
+                        <img class="icone" src="../imagens/icones/senha.svg">
+                        <input class="form-control" type="password" id="senha">
+                      </div>
+                  </div><!--//Fim da label de senha-->
+                  
+                  <!--Botão de entrar-->
+                  <a href="../paginas/cadastro.html">
+                    <button class="btn btn-block">
+                      Entrar
+                    </button>
+                  </a>
+                  
+                  <!--Link de cadastro-->
+                  <div class="form-group">
+                    <small class="form-text p-2">
+                      Não tem cadastro?
+                      <a href="">Faça aqui!</a> 
+                    </small>
+                  </div>
+    
+                </form><!--/Fim do formulário-->
+              </div><!--/Fim do GRID-->
+            </div><!--//Fim da row-->
+          </div><!--//Fim do container-->
+
+        </div><!--//Fim do Grid-->
+      </div><!--//Fim da row-->
+    </div><!--//Fim do container-->
+
+  </section><!--//Fim da Seção Login-->
   
 </body>
 </html>

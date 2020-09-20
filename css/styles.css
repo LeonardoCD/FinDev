@@ -2,6 +2,107 @@
 **************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Poppins:wght@400;500;600&display=swap');
 
+.container-login{
+  height: 100vh;
+  overflow: hidden;
+}
+
+/*Estilização da Landing de Login
+  ****************************************/
+
+#landing-login{
+  background: var(--color-primary) 
+    url(../imagens/bg-landing-login.svg) 
+    no-repeat 10px 180px;
+  /* height: 100vh; */
+  color: var(--color-white);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+}
+
+#landing-login .footer-landing{
+  margin-left: 50px;
+}
+
+#landing-login .footer-landing p{
+  margin-left: 30px;
+}
+
+#landing-login .footer-landing p#avance{
+  font-weight: bold;
+}
+
+
+/*Estilização do Formulário de Login
+  ****************************************/
+#form-login .container{
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  max-width: 434px;
+  height: 500px;
+}
+
+#form-login h5{
+ font-size: 1.2rem;
+ font-family: 'Poppins', sans-serif;
+ color: var(--color-grey-dark);
+}
+
+#form-login h3{
+  font-size: 1.6rem;
+  font-family: 'Archivo', sans-serif;
+}
+
+#form-login .form-group label{
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-text-label);
+}
+
+#form-login .form-group input{
+  border-radius: 22px;
+  height: 48px;
+  padding-left: 50px;
+}
+
+#form-login .form-group input:focus{
+  box-shadow: none;
+  z-index: 0;
+}
+
+#form-login .form-group .icone{
+  position: absolute;
+  width: 30px;
+  margin: 10px 15px;
+  z-index: 1;
+}
+
+#form-login button{
+  font-family: 'Poppins', sans-serif;
+  height: 48px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 22px;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+#form-login a button{
+  color: var(--color-box-white);
+}
+
+#form-login  a:hover{
+  text-decoration: none;
+}
+
+#form-login .form-group small{
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-grey-dark);
+}
+
+#form-login .form-group small a{
+  color: var(--color-text-in-back);
+}
 
 
 
