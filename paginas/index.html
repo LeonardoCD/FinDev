@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!--Estilo personalizado-->
   <link rel="stylesheet" href="../css/styles.css">
+  
+  <!-- Arquivo de JavaScript
+    O atributo defer fará com que o arquivo espere o carregamento da página-->
+  <script src="../js/index.js" defer></script>
 
   <title>FinDev</title>
 
@@ -25,7 +29,10 @@
         <!--Landing Login
           ------------------------------------------>
         <!--Início do GRID-->
-        <div id="landing-login" class="d-none col-md-5 d-md-flex justify-content-center">
+        <div 
+          id="landing-login" 
+          class="d-none col-md-5 d-md-flex justify-content-center"
+        >
           <!--Início da row-->
           <div class="row">
 
@@ -61,7 +68,9 @@
         <!--Início do GRID-->
         <div id="form-login" class="col-md-7 d-flex p-0">
 
-          <div class="container align-self-center justify-content-center"><!--Início do container-->
+          <div class="container 
+            align-self-center justify-content-center"
+          ><!--Início do container-->
 
             <!--Início da row-->
             <div class="row">
@@ -78,8 +87,15 @@
                     <label for="usuario">Nome de usuário:</label>
                     <div class="input-group">
                       <img class="icone" src="../imagens/icones/perfil.svg">
-                      <input class="form-control" type="text" id="usuario">
+                      <input 
+                        required autofocus 
+                        minlength="8" 
+                        pattern="[A-Za-z\s]+$" 
+                        class="form-control" 
+                        type="text" id="usuario"
+                      >
                     </div>
+                    <small id="erro-nome"></small>
                   </div><!--//Fim da label de usuário-->
                   
                   <!--Label de senha-->
@@ -87,16 +103,24 @@
                       <label for="senha">Senha:</label>
                       <div class="input-group">
                         <img class="icone" src="../imagens/icones/senha.svg">
-                        <input class="form-control" type="password" id="senha">
-                      </div>
+                        <input 
+                          required minlength="8" 
+                          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                          class="form-control" 
+                          type="password" id="senha"
+                        >
+                    </div>
+                    <small id="erro-senha"></small>
                   </div><!--//Fim da label de senha-->
                   
                   <!--Botão de entrar-->
-                  <a href="../paginas/cadastro.html">
-                    <button class="btn btn-block">
-                      Entrar
-                    </button>
-                  </a>
+                  <button 
+                    type="submit" 
+                    onclick="validaLogin()" 
+                    class="btn btn-block"
+                  >
+                    Entrar
+                  </button>
                   
                   <!--Link de cadastro-->
                   <div class="form-group">

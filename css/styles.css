@@ -60,6 +60,7 @@
 }
 
 #form-login .form-group input{
+  font-family: 'Poppins', sans-serif;
   border-radius: 22px;
   height: 48px;
   padding-left: 50px;
@@ -87,12 +88,17 @@
   color: var(--color-white);
 }
 
-#form-login a button{
+#form-login button a{
   color: var(--color-box-white);
 }
 
 #form-login  a:hover{
   text-decoration: none;
+}
+
+#form-login .form-group #erro-nome, 
+#form-login .form-group #erro-senha{
+color: var(--colo-danger);
 }
 
 #form-login .form-group small{
@@ -103,7 +109,6 @@
 #form-login .form-group small a{
   color: var(--color-text-in-back);
 }
-
 
 
 
@@ -119,5 +124,6 @@
   --color-white: #FFFFFF;
   --color-box-white: #FEFEFE;
   --color-box-grey: #F4F4F4;
+  --colo-danger: #EB5757;
   
 }
