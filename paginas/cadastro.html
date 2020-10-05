@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <!-- CSS only - BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--Estilo personalizado-->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/cadastro.css">
+
+  <title>FinDev-Cadastro</title>
+
+</head>
+<body>
+
+  <!--Seção Cadastro
+    ------------------------------------------->
+    <section id="cadastro">
+        <!--Início do conteudo-->
+        <div id="conteudo" class="row w-100 m-0">
+          <!--Landing Cadastro
+            -------------------------------------->
+          <!--Início do GRID-->
+          <div id="landing-cad" class=" col-md-5 d-md-block d-none">
+
+            <!--Início da row-->
+            <div class="row w-100 m-0 justify-content-around">
+            
+              <!--Início da seta de voltar-->
+              <div class="col-md-7 align-self-center">
+                  <div class="container mt-1">
+                    <a href="index.html">
+                      <img src="../imagens/icones/seta.svg" alt="">
+                    </a>
+                  </div>
+              </div><!--//Fim da seta de voltar-->
+              
+              <!--Início da seta de voltar-->
+              <div class="col-md-5 align-self-center">
+                  <div class="container ml-4">
+                    <img src="../imagens/findevlogo.svg" alt="">
+                  </div>
+              </div><!--//Fim da seta de voltar-->
+
+            </div><!--//Fim da row-->
+
+            <!--Início da imagem ilustrativa-->
+            <div class="row justify-content-center">
+              <div class="col-md-8 align-self-center">
+                <img src="../imagens/landing-cad.svg" class="img-ilustrativa" alt="">               
+              </div>
+            </div><!--//Fim da imagem ilustrativa-->
+            
+          </div><!--//Fim do GRID-->
+          <!--//Fim da Landing de cadastro-->
+
+          <!--Formulário de Cadastro
+            ----------------------------------------->
+          <!--Início do GRID-->
+          <div id="form-cad" class="col-md-7 form-cad mt-3 mb-3">
+
+            <div class="container 
+              align-self-center justify-content-center"
+            ><!--Início do container-->
+  
+              <!--Início da row-->
+              <div class="row">
+                <div class="col"><!--Início do GRID -->
+  
+                  <!--Título do Formulário-->
+                  <h5 class="pt-4">Vamos lá!</h5>
+                  <h3>Que bom que quer se juntar a nós!</h3>
+  
+                  <form class="mt-5"><!--Início do formulário-->
+                    
+                    <!--Label de usuário-->
+                    <div class="form-group">
+                      <label for="usuario">Nome de usuário:</label>
+                      <div class="input-group">
+                        <img class="icone" src="../imagens/icones/perfil.svg">
+                        <input 
+                          required autofocus 
+                          minlength="8"  
+                          class="form-control" 
+                          type="text" id="usuario"
+                        >
+                      </div>
+                    </div><!--//Fim da label de usuário-->
+                    
+                    <!--Label de senha-->
+                    <div class="form-group">
+                        <label for="senha">Senha:</label>
+                        <div class="input-group">
+                          <img class="icone" src="../imagens/icones/senha.svg">
+                          <input 
+                            required minlength="8" 
+                            class="form-control" 
+                            type="password" id="senha"
+                          >
+                      </div>
+                    </div><!--//Fim da label de senha-->
+
+                    <!--Label de linguagem-->
+                    <div class="form-group">
+                      <label for="linguagem">Linguagem:</label>
+                      <div class="input-group">
+                        <img class="icone" src="../imagens/icones/linguagem.svg">
+                        <input 
+                          required minlength="8" 
+                          class="form-control" 
+                          type="password" id="linguagem"
+                        >
+                      </div>
+                    </div><!--//Fim da label de linguagem-->
+
+                    <!--Label de E-mail-->
+                    <div class="form-group">
+                      <label for="email">E-mail:</label>
+                      <div class="input-group">
+                        <img class="icone" src="../imagens/icones/email.svg">
+                        <input 
+                          required minlength="8" 
+                          class="form-control" 
+                          type="password" id="email"
+                        >
+                      </div>
+                    </div><!--//Fim da label de E-mail-->
+
+                    <!--Label de Whatsapp-->
+                    <div class="form-group">
+                      <label for="whatsapp">Whatsapp:</label>
+                      <div class="input-group">
+                        <img class="icone" src="../imagens/icones/whatsapp.svg">
+                        <input 
+                          required minlength="8" 
+                          class="form-control" 
+                          type="password" id="whatsapp"
+                        >
+                      </div>
+                    </div><!--//Fim da label de Whatsapp-->
+                    
+                    <!--Botão de Cadastrar-->
+                    <button type="submit" class="btn btn-block">
+                      Cadastrar
+                    </button>
+                    
+                    <!--Link de login-->
+                    <div class="form-group">
+                      <small class="form-text p-2">
+                        Já tem cadastro?
+                        <a href="index.html">Clique aqui!</a> 
+                      </small>
+                    </div>
+      
+                  </form><!--/Fim do formulário-->
+
+                </div><!--/Fim do GRID-->
+              </div><!--//Fim da row-->
+              
+            </div><!--//Fim do container-->
+  
+          </div><!--//Fim do Grid-->
+
+        </div><!--//Fim do conteúdo-->
+    </section>
+  <!--//Fim da Seção Cadastro-->
+  
+</body>
+</html>

@@ -12,20 +12,19 @@
 
 #landing-login{
   background: var(--color-primary) 
-    url(../imagens/bg-landing-login.svg) 
+    url(../imagens/bg-landing.svg) 
     no-repeat 10px 180px;
-  /* height: 100vh; */
   color: var(--color-white);
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
 }
 
 #landing-login .footer-landing{
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 #landing-login .footer-landing p{
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 #landing-login .footer-landing p#avance{
@@ -42,43 +41,56 @@
   height: 500px;
 }
 
-#form-login h5{
+#form-login h5,
+#form-cad h5
+{
  font-size: 1.2rem;
  font-family: 'Poppins', sans-serif;
  color: var(--color-grey-dark);
 }
 
-#form-login h3{
+#form-login h3,
+#form-cad h3
+{
   font-size: 1.6rem;
   font-family: 'Archivo', sans-serif;
 }
 
-#form-login .form-group label{
+#form-login .form-group label,
+#form-cad .form-group label
+{
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   color: var(--color-text-label);
 }
 
-#form-login .form-group input{
+#form-login .form-group input,
+#form-cad .form-group input
+{
   font-family: 'Poppins', sans-serif;
   border-radius: 22px;
   height: 48px;
   padding-left: 50px;
 }
 
-#form-login .form-group input:focus{
+#form-login .form-group input:focus,
+#form-cad .form-group input:focus
+{
   box-shadow: none;
   z-index: 0;
 }
 
-#form-login .form-group .icone{
+#form-login .form-group .icone,
+#form-cad .form-group .icone{
   position: absolute;
   width: 30px;
   margin: 10px 15px;
   z-index: 1;
 }
 
-#form-login button{
+#form-login button,
+#form-cad button
+{
   font-family: 'Poppins', sans-serif;
   height: 48px;
   font-size: 1.4rem;
@@ -88,11 +100,15 @@
   color: var(--color-white);
 }
 
-#form-login button a{
+#form-login button a,
+#form-cad button a
+{
   color: var(--color-box-white);
 }
 
-#form-login  a:hover{
+#form-login  a:hover,
+#form-cad  a:hover
+{
   text-decoration: none;
 }
 
@@ -101,12 +117,16 @@
 color: var(--colo-danger);
 }
 
-#form-login .form-group small{
+#form-login .form-group small,
+#form-cad .form-group small
+{
   font-family: 'Poppins', sans-serif;
   color: var(--color-grey-dark);
 }
 
-#form-login .form-group small a{
+#form-login .form-group small a,
+#form-cad .form-group small a
+{
   color: var(--color-text-in-back);
 }
 
