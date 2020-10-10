@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <!-- CSS only - BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--Estilo personalizado-->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/editar.css">
+
+  <title>FinDev-Editar</title>
+
+</head>
+<body>
+
+  <header><!--Início do Header-->
+
+    <div class="row pt-3 w-100">
+      <div class="col-md-3">
+        <a href="lista.html">
+          <img src="../imagens/icones/seta.svg" alt="voltar">
+        </a>
+      </div>
+      <div class="col-md-7 pt-3">
+        <h5>Algo errado?</h5>
+        <h1>Edite seus dados cuidadosamente!</h1>
+      </div>
+      <div class="col-md-2">
+        <img src="../imagens/findevlogo.svg" alt="logo">
+      </div>
+    </div>
+
+  </header><!--//Fim do Header-->
+
+  <!--Início do fomulário de Edição
+    ----------------------------------------------->
+  <!--Início da row-->
+  <div class="row w-100">
+    <!--Início do GRID-->
+    <div id="form-edit" class="col-md-12 form-cad mt-3 mb-3">
+
+      <div class="container
+         justify-content-center"
+      ><!--Início do container-->
+  
+        <!--Início da row-->
+        <div class="row">
+          <div class="col"><!--Início do GRID -->
+  
+            <!--Título do Formulário-->
+            <h3 class="mt-4">Não esqueça nenhum campo!</h3>
+  
+            <form class="mt-3"><!--Início do formulário-->
+              
+              <!--Label de usuário-->
+              <div class="form-group">
+                <label for="usuario">Nome de usuário:</label>
+                <div class="input-group">
+                  <img class="icone" src="../imagens/icones/perfil.svg">
+                  <input 
+                    required autofocus 
+                    minlength="8"  
+                    class="form-control" 
+                    type="text" id="usuario"
+                  >
+                </div>
+              </div><!--//Fim da label de usuário-->
+              
+              <!--Label de senha-->
+              <div class="form-group">
+                  <label for="senha">Senha:</label>
+                  <div class="input-group">
+                    <img class="icone" src="../imagens/icones/senha.svg">
+                    <input 
+                      required minlength="8" 
+                      class="form-control" 
+                      type="password" id="senha"
+                    >
+                </div>
+              </div><!--//Fim da label de senha-->
+  
+              <!--Label de linguagem-->
+              <div class="form-group">
+                <label for="linguagem">Linguagem:</label>
+                <div class="input-group">
+                  <img class="icone" src="../imagens/icones/linguagem.svg">
+                  <input 
+                    required minlength="8" 
+                    class="form-control" 
+                    type="password" id="linguagem"
+                  >
+                </div>
+              </div><!--//Fim da label de linguagem-->
+  
+              <!--Label de E-mail-->
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <div class="input-group">
+                  <img class="icone" src="../imagens/icones/email.svg">
+                  <input 
+                    required minlength="8" 
+                    class="form-control" 
+                    type="password" id="email"
+                  >
+                </div>
+              </div><!--//Fim da label de E-mail-->
+  
+              <!--Label de Whatsapp-->
+              <div class="form-group">
+                <label for="whatsapp">Whatsapp:</label>
+                <div class="input-group">
+                  <img class="icone" src="../imagens/icones/whatsapp.svg">
+                  <input 
+                    required minlength="8" 
+                    class="form-control" 
+                    type="password" id="whatsapp"
+                  >
+                </div>
+              </div><!--//Fim da label de Whatsapp-->
+              
+              <!--Botão de Cadastrar-->
+              <button type="submit" class="btn btn-block mt-5 mb-5">
+                Confirmar
+              </button>
+              
+            </form><!--/Fim do formulário-->
+  
+          </div><!--/Fim do GRID-->
+        </div><!--//Fim da row-->
+        
+      </div><!--//Fim do container-->
+  
+    </div><!--//Fim do Grid-->
+  </div><!--//Fim da row-->
+  
+
+</body>
+</html>

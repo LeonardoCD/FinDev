@@ -1,0 +1,34 @@
+
+body{
+  max-width: 100vw;
+}
+
+
+/* Estilização do Header */
+header{
+  background: var(--color-primary) 
+    url(../imagens/background-editar.png) 
+    no-repeat 300px;
+  height: 180px;
+  color: var(--color-white);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+}
+
+/*Estilização do Formulário de Edição
+  ****************************************/
+  #form-edit .container{
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    max-width: 490px;
+    max-height: 900px;
+  }
+  #form-edit button{
+    font-family: 'Poppins', sans-serif;
+    height: 48px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 22px;
+    background: var(--color-secondary);
+    color: var(--color-white);
+  }
