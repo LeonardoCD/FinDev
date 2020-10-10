@@ -42,7 +42,8 @@
 }
 
 #form-login h5,
-#form-cad h5
+#form-cad h5,
+#form-edit h5
 {
  font-size: 1.2rem;
  font-family: 'Poppins', sans-serif;
@@ -50,14 +51,16 @@
 }
 
 #form-login h3,
-#form-cad h3
+#form-cad h3,
+#form-edit h3
 {
   font-size: 1.6rem;
   font-family: 'Archivo', sans-serif;
 }
 
 #form-login .form-group label,
-#form-cad .form-group label
+#form-cad .form-group label,
+#form-edit .form-group label
 {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -65,7 +68,9 @@
 }
 
 #form-login .form-group input,
-#form-cad .form-group input
+#form-cad .form-group select,
+#form-cad .form-group input,
+#form-edit .form-group input
 {
   font-family: 'Poppins', sans-serif;
   border-radius: 22px;
@@ -74,14 +79,17 @@
 }
 
 #form-login .form-group input:focus,
-#form-cad .form-group input:focus
+#form-cad .form-group input:focus,
+#form-edit .form-group input:focus
 {
   box-shadow: none;
   z-index: 0;
 }
 
 #form-login .form-group .icone,
-#form-cad .form-group .icone{
+#form-cad .form-group .icone,
+#form-edit .form-group .icone
+{
   position: absolute;
   width: 30px;
   margin: 10px 15px;
@@ -101,13 +109,15 @@
 }
 
 #form-login button a,
-#form-cad button a
+#form-cad button a,
+#form-edit button a
 {
   color: var(--color-box-white);
 }
 
-#form-login  a:hover,
-#form-cad  a:hover
+#form-login a:hover,
+#form-cad a:hover,
+#form-edit a:hover
 {
   text-decoration: none;
 }
@@ -118,14 +128,16 @@ color: var(--colo-danger);
 }
 
 #form-login .form-group small,
-#form-cad .form-group small
+#form-cad .form-group small,
+#form-edit .form-group small
 {
   font-family: 'Poppins', sans-serif;
   color: var(--color-grey-dark);
 }
 
 #form-login .form-group small a,
-#form-cad .form-group small a
+#form-cad .form-group small a,
+#form-edit .form-group small a
 {
   color: var(--color-text-in-back);
 }
