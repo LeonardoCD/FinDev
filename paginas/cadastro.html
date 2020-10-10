@@ -105,13 +105,17 @@
                     <!--Label de linguagem-->
                     <div class="form-group">
                       <label for="linguagem">Linguagem:</label>
-                      <div class="input-group">
-                        <img class="icone" src="../imagens/icones/linguagem.svg">
-                        <input 
-                          required minlength="8" 
-                          class="form-control" 
-                          type="password" id="linguagem"
-                        >
+                      <!-- <img class="icone" src="../imagens/icones/linguagem.svg"> -->
+                      <div class="box">
+                        <select class="form-control" id="linguagem">
+                          <option hidden>Escolha uma</option>
+                          <option>Java</option>
+                          <option>JavaScript</option>
+                          <option>Python</option>
+                          <option>PHP</option>
+                          <option>Kotlin</option>
+                          <option>C</option>
+                        </select>
                       </div>
                     </div><!--//Fim da label de linguagem-->
 
@@ -123,7 +127,7 @@
                         <input 
                           required minlength="8" 
                           class="form-control" 
-                          type="password" id="email"
+                          type="email" id="email"
                         >
                       </div>
                     </div><!--//Fim da label de E-mail-->
@@ -136,7 +140,7 @@
                         <input 
                           required minlength="8" 
                           class="form-control" 
-                          type="password" id="whatsapp"
+                          type="text" id="whatsapp"
                         >
                       </div>
                     </div><!--//Fim da label de Whatsapp-->
