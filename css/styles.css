@@ -70,7 +70,8 @@
 #form-login .form-group input,
 #form-cad .form-group select,
 #form-cad .form-group input,
-#form-edit .form-group input
+#form-edit .form-group input,
+#form-edit .form-group select
 {
   font-family: 'Poppins', sans-serif;
   border-radius: 22px;

@@ -38,7 +38,3 @@
     width: 30px;
     height: 30px;
   }
-
-  #form-cad .form-group select:before{
-    border-radius: 22px;
-  }

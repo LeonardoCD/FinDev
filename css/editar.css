@@ -23,6 +23,20 @@ header{
     max-width: 490px;
     max-height: 900px;
   }
+
+  #form-edit .form-group .box{
+    position: relative;
+  }
+
+  #form-edit .form-group .box:before{
+    content: url('../imagens/icones/linguagem.svg');
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
   #form-edit button{
     font-family: 'Poppins', sans-serif;
     height: 48px;
